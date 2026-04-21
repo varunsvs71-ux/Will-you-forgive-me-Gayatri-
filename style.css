@@ -1,5 +1,65 @@
-background: linear-gradient(135deg, #ffd6d6, 
+body {
+    background: pink;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#yes {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#no {
+    background-color: #ccc;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
 
 #couplePhoto {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    display: none;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.note {
+    margin-top: 15px;
+    font-size: 12px;
+    color: black;
 }
